@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inbox</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f3f3f3;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #e1e1e1;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .request {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            background-color: #f9f9f9;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .accept {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .reject {
+            background-color: #FF5733;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Inbox</h1>
+        <div class="request">
+            <p>Request: This is a sample request from a user.</p>
+            <div class="button-container">
+                <button class="accept">Accept</button>
+                <button class="reject">Reject</button>
+            </div>
+        </div>
+        <div class="request">
+            <p>Request: Another sample request from a different user.</p>
+            <div class="button-container">
+                <button class="accept">Accept</button>
+                <button class="reject">Reject</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
